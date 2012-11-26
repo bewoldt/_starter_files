@@ -31,12 +31,13 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 ========================================================================== */
 
 body {
-
-}
-
-#wrapper {
-    max-width: 944px;
-    margin: auto;
+	background: #666 url(../images/background.png);
+	color: #333;
+	font-family: open-sans, arial, verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
 }
 
 

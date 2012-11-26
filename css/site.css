@@ -1310,9 +1310,14 @@ legend + .control-group {
 
 /* Custom styles
 ========================================================================== */
-#wrapper {
-  max-width: 944px;
-  margin: auto; }
+body {
+  background: #666666 url(../images/background.png);
+  color: #333;
+  font-family: open-sans, arial, verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0; }
 
 /* Helper classes
 ========================================================================== */
