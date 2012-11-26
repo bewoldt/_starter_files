@@ -1311,7 +1311,7 @@ legend + .control-group {
 /* Custom styles
 ========================================================================== */
 body {
-  background: #666666 url(../images/background.png);
+  background: #fff;
   color: #333;
   font-family: open-sans, arial, verdana, sans-serif;
   font-size: 15px;

@@ -20,7 +20,7 @@
     </head>
     <body>
 	    
-	    <div id="wrapper">
+	    <div id="wrapper" style="width: 80%;margin: 0 auto;">
 	      <section>
 	        <h1>General Typography</h1>
   				<p>These are the basic elements of typography.</p>
@@ -477,6 +477,6 @@
 
       <!-- Scripts -->
       <script src="js/plugins-ck.js"></script>
-      <script src="js/main.js"></script>
+      <script src="js/main-ck.js"></script>
     </body>
 </html>
