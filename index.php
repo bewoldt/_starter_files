@@ -11,10 +11,10 @@
             <ul class="slides">
                 <li>
                     <img src="http://placehold.it/1000x400&amp;text=img1" alt="" />
-                    <p class="flex-caption">Caption Goes Here.</p>
                 </li>
                 <li>
                     <img src="http://placehold.it/1000x400&amp;text=img2" alt="" />
+                    <p class="flex-caption">Caption Goes Here.</p>
                 </li>
                 <li>
                     <img src="http://placehold.it/1000x400&amp;text=img3" alt="" />
@@ -40,8 +40,11 @@
             </div>
         </div><!-- end .row -->
         <hr>
-        <h3>Content Section</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.</p>
+        <div class="well">
+            <h3>Content Section</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
 
 
         <?php include 'includes/_footer.php'; ?>

@@ -21,21 +21,29 @@
     <div class="container">
         <section>
             <h1>Typography</h1>
-
-            <h1>h1. This is a very large header.</h1>
-            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <h2>h2. This is a large header.</h2>
-            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-            <h3>h3. This is a medium header.</h3>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <h4>h4. This is a moderate header.</h4>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            <h5>h5. This is small header.</h5>
-            <p>Cum sociis natoque penatibus magnis parturient montes, nascetur ridiculus mus. Sed consectetur est at lobortis.</p>
-            <h6>h6. This is very small header.</h6>            
-            <p>Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
-			<h3 id="links">Links</h3>
-			<p>Etiam porta sem malesuada <a href="#">magna mollis euismod</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.</p>
+            <div class="row-fluid">
+                <div class="span6">
+                    <h1>h1. This is a very large header.</h1>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h2>h2. This is a large header.</h2>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    <h3>h3. This is a medium header.</h3>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <h4>h4. This is a moderate header.</h4>
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                    <h5>h5. This is small header.</h5>
+                    <p>Cum sociis natoque penatibus magnis parturient montes, nascetur ridiculus mus. Sed consectetur est at lobortis.</p>
+                    <h6>h6. This is very small header.</h6>            
+                    <p>Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
+                </div>
+                <div class="span6">
+                    <h2>Paragraph</h2>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
+                    <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    <h3>Links</h3>
+                    <p>Etiam porta sem malesuada <a href="#">magna mollis euismod</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.</p>
+                </div>
+            </div>
         </section>
         <hr id="lists" >
         <section>

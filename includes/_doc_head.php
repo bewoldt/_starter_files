@@ -13,5 +13,5 @@
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/site.css">
 
-    <script src="http://use.edgefonts.net/open-sans.js"></script>
+    <script src="http://use.edgefonts.net/source-sans-pro.js"></script>
 </head>
