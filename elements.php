@@ -3,21 +3,6 @@
 <?php include 'includes/_doc_head.php'; ?>
 
 <body>
-    <div class="row-fluid">
-        <div class="navbar navbar-fixed-top navbar-inverse">
-            <div class="navbar-inner">
-                <ul class="nav" style="width:100%;text-align:center;">
-                    <li class="span2"><a href="#typography">Typography</a>
-                    <li class="span2"><a href="#lists">Lists</a>
-                    <li class="span2"><a href="#blockquotes">Blockquotes</a>
-                    <li class="span2"><a href="#tables">Tables</a>
-                    <li class="span2"><a href="#forms">Forms</a>
-                    <li class="span2"><a href="#buttons">Buttons</a>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <hr id="typography">
     <div class="container">
         <section>
             <h1>Typography</h1>
@@ -40,7 +25,7 @@
                     <h2>Paragraph</h2>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
                     <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                    <h3>Links</h3>
+                    <h3>h3 Link Styles</h3>
                     <p>Etiam porta sem malesuada <a href="#">magna mollis euismod</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.</p>
                 </div>
             </div>
