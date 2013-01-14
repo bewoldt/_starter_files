@@ -1,40 +1,42 @@
-<?php $title="Elements" ?>
+<?php $title="Styleguide" ?>
 
 <?php include 'includes/_doc_head.php'; ?>
 
 <body>
+    <?php include 'includes/division-topbar.php'; ?>
     <div class="container">
         <section>
             <h1>Typography</h1>
             <div class="row-fluid">
                 <div class="span6">
-                    <h1>h1. This is a very large header.</h1>
+                    <h1>H1. This is a very large header.</h1>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <h2>h2. This is a large header.</h2>
+                    <h2>H2. This is a large header.</h2>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                    <h3>h3. This is a medium header.</h3>
+                    <h3>H3. This is a medium header.</h3>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <h4>h4. This is a moderate header.</h4>
+                    <h4>H4. This is a moderate header.</h4>
                     <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-                    <h5>h5. This is small header.</h5>
+                    <h5>H5. This is small header.</h5>
                     <p>Cum sociis natoque penatibus magnis parturient montes, nascetur ridiculus mus. Sed consectetur est at lobortis.</p>
-                    <h6>h6. This is very small header.</h6>            
+                    <h6>H6. This is very small header.</h6>            
                     <p>Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
                 </div>
                 <div class="span6">
                     <h2>Paragraph</h2>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
                     <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                    <h3>h3 Link Styles</h3>
+                    <h3>Link Styles</h3>
                     <p>Etiam porta sem malesuada <a href="#">magna mollis euismod</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.</p>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit <a href="#">libero a pharetra augue</a>. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
         </section>
-        <hr id="lists" >
+        <hr>
         <section>
             <h1>Lists</h1>
             <div class="row-fluid">
-                <div class="span6">
+                <div class="span3">
         			<h3>Unordered List</h3>
         			<p>A list of items in which the order does not explicitly matter.</p>
                     <ul>
@@ -51,18 +53,8 @@
                         <li>List item</li>
                         <li>List item</li>
                     </ul>
-                    <hr>
-                    <h3>Inline List</h3>
-                    <p>Place all list items on a single line with <code>inline-block</code> and some light padding.</p>
-                    <ul class="inline">
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                    </ul>
                 </div>
-                <div class="span6">
+                <div class="span3">
                     <h3>Ordered List</h3>
                     <p>A list of items in which the order does explicitly matter.</p>
                     <ol>
@@ -79,19 +71,25 @@
                         <li>List item</li>
                         <li>List item</li>
                     </ol>
-                    <hr>
+                </div>
+                <div class="span3">
                     <h3>Unstyled List</h3>
                     <p>A list of items with a class <code>.unstyled</code>.</p>
                     <ul class="unstyled">
-                        <li>List item with a much longer description or more content.</li>
                         <li>List item</li>
-                        <li>List item
-                            <ul>
-                                <li>Nested List Item</li>
-                                <li>Nested List Item</li>
-                                <li>Nested List Item</li>
-                            </ul>
-                        </li>
+                        <li>List item</li>
+                        <li>List item</li>
+                        <li>List item</li>
+                        <li>List item</li>
+                        <li>List item</li>
+                    </ul>
+                </div>
+                <div class="span3">
+                    <h3>Inline List</h3>
+                    <p>Place all list items on a single line with a class of <code>inline</code>.</p>
+                    <ul class="inline">
+                        <li>List item</li>
+                        <li>List item</li>
                         <li>List item</li>
                         <li>List item</li>
                         <li>List item</li>
@@ -99,7 +97,7 @@
                 </div>
             </div>
         </section>
-        <hr id="blockquotes">
+        <hr>
         <section>
 			<h1>Blockquotes</h1>
 			<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
@@ -116,7 +114,7 @@
 			</blockquote>
 			<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac vestibulum eros.</p>
         </section>
-        <hr id="tables">
+        <hr>
         <section>			
 			<h1>Tables</h1>
 			<h4>Default styles</h4>
@@ -290,7 +288,56 @@
                 </tbody>
             </table>
         </section>
-        <hr id="forms">
+        <hr>
+        <section>
+            <h1>Carousels</h1>
+            <div class="row-fluid">
+                <div class="span6">
+                    <h3>Flexslider</h3>
+                    <h5>CSS</h5>
+                    <textarea rows="1" style="width:100%;">
+<link rel="stylesheet" href="css/flexslider.css">
+                    </textarea>
+                    <h5>HTML</h5>
+                    <textarea rows="10" style="width:100%;">
+<div class="flexslider">
+    <ul class="slides">
+        <li><img src="images/slide1.jpg" alt="" /></li>
+        <li>
+            <img src="images/slide2.jpg" alt="" />
+            <p class="flex-caption">Caption Goes Here.</p>
+        </li>
+        <li><img src="images/slide3.jpg" alt="" /></li>
+    </ul>
+</div>
+                    </textarea>
+                    <h5>Javascript</h5>
+                    <textarea rows="3" style="width:100%">
+$('.flexslider').flexslider({
+    slideshow: false
+});
+                    </textarea>
+                </div>
+                <div class="span6">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/slide1.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img src="images/slide2.jpg" alt="" />
+                                <p class="flex-caption">Caption Goes Here.</p>
+                            </li>
+                            <li>
+                                <img src="images/slide3.jpg" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                    <p>Advanced settings can be found <a href="http://www.woothemes.com/flexslider/">here</a></p>
+                </div>
+            </div>
+        </section>
+        <hr>
         <section>
 			<h1>Forms</h1>
 			<p>Individual form controls receive styling, but without any required base class on the <code>&lt;form&gt;</code> or large changes in markup. Results in stacked, left-aligned labels on top of form controls.</p>
@@ -412,7 +459,7 @@
                 <input class="input-xxlarge" type="text" placeholder=".input-xxlarge"><br>
             </form>
         </section>
-        <hr id="buttons">
+        <hr>
         <section>
             <h1>Buttons</h1>
             <p>Button styles can be applied to anything with the <code>.btn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements for the best rendering.</p>
@@ -451,21 +498,143 @@
             <h3>Button sizes</h3>
             <p>Fancy larger or smaller buttons? Add <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code> for additional sizes.</p>
             <p>
-            <button type="button" class="btn btn-large btn-primary">Large button</button>
-            <button type="button" class="btn btn-large">Large button</button>
+                <button type="button" class="btn btn-large btn-primary">Large button</button>
+                <button type="button" class="btn btn-large">Large button</button>
             </p>
             <p>
-            <button type="button" class="btn btn-primary">Default button</button>
-            <button type="button" class="btn">Default button</button>
+                <button type="button" class="btn btn-primary">Default button</button>
+                <button type="button" class="btn">Default button</button>
             </p>
             <p>
-            <button type="button" class="btn btn-small btn-primary">Small button</button>
-            <button type="button" class="btn btn-small">Small button</button>
+                <button type="button" class="btn btn-small btn-primary">Small button</button>
+                <button type="button" class="btn btn-small">Small button</button>
             </p>
             <p>
-            <button type="button" class="btn btn-mini btn-primary">Mini button</button>
-            <button type="button" class="btn btn-mini">Mini button</button>
+                <button type="button" class="btn btn-mini btn-primary">Mini button</button>
+                <button type="button" class="btn btn-mini">Mini button</button>
             </p>
+        </section>
+        <hr>
+        <section>
+            <h1>Grid</h1>
+            <div class="row-fluid">
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="well">
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span4">
+                    <div class="well">
+                        <h5>Span4</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="well">
+                        <h5>Span4</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="well">
+                        <h5>Span4</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span4">
+                    <div class="well">
+                        <h5>Span4</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+                <div class="span4 offset4">
+                    <div class="well">
+                        <h5>Span4 Offset4</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="well">
+                        <h5>Span6</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="well">
+                        <h5>Span6</h5>
+                        <p>Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="well">
+                        <h5>Span12</h5>
+                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
     <!-- Document End -->

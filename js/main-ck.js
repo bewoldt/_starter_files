@@ -1,1 +1,1 @@
-$(window).load(function(){$(".flexslider").flexslider({slideshow:!1})});
+$(window).load(function(){$("body").addClass("js");var e=$("#univ-nav"),t=$(".menu-link");t.click(function(){t.toggleClass("active");e.toggleClass("active");return!1});$(".flexslider").flexslider({slideshow:!1})});

@@ -33,14 +33,17 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 /* @import Grid.scss */
 @import "imports/grid.scss";
 
+/* @import Grid.scss */
+@import "imports/division-topbar.scss";
+
 /* Custom styles
 ========================================================================== */
 
 body {
 	background: #fff;
 	color: #444;
-	font-family: source-sans-pro, arial, verdana, sans-serif;
-	font-size: 17px;
+	font-family: open-sans, arial, verdana, sans-serif;
+	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
