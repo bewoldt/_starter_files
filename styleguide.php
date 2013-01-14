@@ -295,8 +295,9 @@
                 <div class="span6">
                     <h3>Flexslider</h3>
                     <h5>CSS</h5>
+                    <p>import the following scss file in site.scss</p>
                     <textarea rows="1" style="width:100%;">
-<link rel="stylesheet" href="css/flexslider.css">
+@import "imports/flexslider.scss";
                     </textarea>
                     <h5>HTML</h5>
                     <textarea rows="10" style="width:100%;">
@@ -520,64 +521,74 @@ $('.flexslider').flexslider({
             <div class="row-fluid">
                 <div class="span1">
                     <div class="well">
-                        <p>1</p>
+                        1
                     </div>
                 </div>
-                <div class="span1">
+                <div class="span11">
                     <div class="well">
-                        <p>1</p>
+                        11
                     </div>
                 </div>
-                <div class="span1">
+            </div>
+            <div class="row-fluid">
+                <div class="span2">
                     <div class="well">
-                        <p>1</p>
+                        2
                     </div>
                 </div>
-                <div class="span1">
+                <div class="span10">
                     <div class="well">
-                        <p>1</p>
+                        10
                     </div>
                 </div>
-                <div class="span1">
+            </div>
+            <div class="row-fluid">
+                <div class="span3">
                     <div class="well">
-                        <p>1</p>
+                        3
                     </div>
                 </div>
-                <div class="span1">
+                <div class="span9">
                     <div class="well">
-                        <p>1</p>
+                        9
                     </div>
                 </div>
-                <div class="span1">
+            </div>
+            <div class="row-fluid">
+                <div class="span4">
                     <div class="well">
-                        <p>1</p>
+                        4
                     </div>
                 </div>
-                <div class="span1">
+                <div class="span8">
                     <div class="well">
-                        <p>1</p>
+                        8
                     </div>
                 </div>
-                <div class="span1">
+            </div>
+            <div class="row-fluid">
+                <div class="span5">
                     <div class="well">
-                        <p>1</p>
+                        5
                     </div>
                 </div>
-                <div class="span1">
+                <div class="span7">
                     <div class="well">
-                        <p>1</p>
+                        7
                     </div>
                 </div>
-                <div class="span1">
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
                     <div class="well">
-                        <p>1</p>
+                        6
+                        <div class="row-fluid">
+                            <div class="span6"><div class="well">Nested 6</div></div>
+                            <div class="span6"><div class="well">Nested 6</div></div>
+                        </div>
                     </div>
                 </div>
-                <div class="span1">
-                    <div class="well">
-                        <p>1</p>
-                    </div>
-                </div>
+                <div class="span6"><div class="well">6</div></div>
             </div>
             <div class="row-fluid">
                 <div class="span4">
@@ -609,20 +620,6 @@ $('.flexslider').flexslider({
                 <div class="span4 offset4">
                     <div class="well">
                         <h5>Span4 Offset4</h5>
-                        <p>Vestibulum id ligula porta felis euismod semper.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row-fluid">
-                <div class="span6">
-                    <div class="well">
-                        <h5>Span6</h5>
-                        <p>Vestibulum id ligula porta felis euismod semper.</p>
-                    </div>
-                </div>
-                <div class="span6">
-                    <div class="well">
-                        <h5>Span6</h5>
                         <p>Vestibulum id ligula porta felis euismod semper.</p>
                     </div>
                 </div>

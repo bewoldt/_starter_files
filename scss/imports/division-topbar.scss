@@ -15,17 +15,13 @@
             box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
     position: relative;
     z-index: 1;
-    @media (max-width: 480px) {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
 }
 
 /* heading */
 .univ-heading {
     float: left;
     padding: 0;
-    line-height: 36px;
+    line-height: 40px;
     margin: 0;
     font-size: 12px;
     font-weight: bold;
@@ -81,7 +77,7 @@
     }
 }
 
-#univ-nav {
+.univ-nav {
     clear: both;
     list-style: none;
     margin: 0;
@@ -102,12 +98,12 @@
     }
 }
 /* hide the menu if javascript is enabled */
-.js #univ-nav {
+.js .univ-nav {
     overflow: hidden;
     max-height: 0;
 }
 /* expand menu when button is clicked */
-#univ-nav.active {
+.univ-nav.active {
     max-height: 15em;
 }
 
@@ -117,20 +113,20 @@
     .menu-link {
         display: none;  /* hide menu toggle button */
     }
-    .js #univ-nav {
+    .js .univ-nav {
         clear: none;
         max-height: none;
         float: right;
     }
-    #univ-nav li {
+    .univ-nav li {
         border-right: 1px solid #333;
         float: left;
         position: relative;
     }
-    #univ-nav li a {
+    .univ-nav li a {
         border: 0;
         font-size: 11px;
-        padding: 10px 6px;
+        padding: 12px 6px;
         text-decoration: none;
     }
 }

@@ -15,26 +15,29 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 .clearfix:after { clear: both;}
 .clearfix { *zoom: 1;}
 
-/* @import Typography.scss */
+/* @import Typography */
 @import "imports/typography.scss";
 
-/* @import Buttons.scss */
+/* @import Buttons */
 @import "imports/buttons.scss";
 
-/* @import Tables.scss */
+/* @import Tables */
 @import "imports/tables.scss";
 
-/* @import Forms.scss */
+/* @import Forms */
 @import "imports/forms.scss";
 
-/* @import Nav.scss */
+/* @import Nav */
 @import "imports/nav.scss";
 
-/* @import Grid.scss */
+/* @import Grid */
 @import "imports/grid.scss";
 
-/* @import Grid.scss */
+/* @import Division Topbar */
 @import "imports/division-topbar.scss";
+
+/* @import Flexslider */
+@import "imports/flexslider.scss";
 
 /* Custom styles
 ========================================================================== */
@@ -49,6 +52,14 @@ body {
 	padding: 0;
 }
 
+/* Layout
+========================================================================== */
+.container {
+	margin: 0 auto;
+	width: 96%;
+}
+
+
 /* Header
 ========================================================================== */
 
@@ -61,7 +72,6 @@ body {
 
 /* Footer
 ========================================================================== */
-
 
 
 
@@ -93,7 +103,7 @@ img.right {margin-left: 1em;margin-bottom: 1em;}
 
 /* 768px and above
 ========================================================================== */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
     
 }
 

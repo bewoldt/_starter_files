@@ -50,7 +50,7 @@ dt {
     font-weight: bold;
 }
 dd {
-    margin-left: 10px;
+    margin-left: 1em;
 }
 code, pre {
     padding: 0 3px 2px;
@@ -69,7 +69,7 @@ code {
 }
 hr {
     clear: both;
-    margin: 20px 0;
+    margin: 1.5em 0;
     border: 0;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #fff;
@@ -78,8 +78,8 @@ hr {
 /* Quotes
 ----------------------------------------------------*/
 blockquote {
-    padding: 0 0 0 15px;
-    margin: 0 0 20px;
+    padding: 0 0 0 1em;
+    margin: 0 0 1em;
     border-left: 5px solid #eee;
 }
 blockquote p {
@@ -96,8 +96,8 @@ blockquote small:before {
 }
 blockquote.pull-right {
     float: right;
-    margin-left: 15px;
-    padding-right: 15px;
+    margin-left: 1em;
+    padding-right: 1em;
     padding-left: 0;
     border-right: 5px solid #eee;
     border-left: 0;

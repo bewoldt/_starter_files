@@ -3,7 +3,7 @@ $(window).load(function() {
     $('body').addClass('js');
 
     // Division-topbar Menu dropdown
-    var $menu = $('#univ-nav'),
+    var $menu = $('.univ-nav'),
     $menulink = $('.menu-link');
     $menulink.click(function() {
         $menulink.toggleClass('active');
