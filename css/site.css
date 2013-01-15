@@ -2361,25 +2361,26 @@ html[xmlns] .slides {
   *height: 0; }
 
 .flex-direction-nav a {
-  width: 30px;
-  height: 30px;
-  margin: -20px 0 0;
+  width: 38px;
+  height: 79px;
+  margin: -40px 0 0;
   display: block;
-  background: url(../images/bg_direction_nav.png) no-repeat 0 0;
+  background-image: none;
   position: absolute;
   top: 50%;
   z-index: 10;
   cursor: pointer;
   text-indent: -9999px;
-  opacity: 0.8;
+  opacity: 1;
   -webkit-transition: all 0.3s ease; }
 
-.flex-direction-nav .flex-next {
-  background-position: 100% 0;
-  right: 5px; }
-
 .flex-direction-nav .flex-prev {
-  left: 5px; }
+  background: url(../images/flexslider_prev.png) no-repeat 0 0;
+  left: 10px; }
+
+.flex-direction-nav .flex-next {
+  background: url(../images/flexslider_next.png) no-repeat 0 0;
+  right: 10px; }
 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1; }
@@ -2475,7 +2476,7 @@ body {
   background: #fff;
   color: #444;
   font-family: open-sans, arial, verdana, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
   margin: 0;
   padding: 0; }

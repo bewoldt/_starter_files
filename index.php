@@ -3,10 +3,11 @@
 <?php include 'includes/_doc_head.php'; ?>
 
 <body>
+    <?php include 'includes/division-topbar.php'; ?>
     <div class="container">
         
-        <?php include 'includes/_header.php'; ?>
-        <?php include 'includes/_nav.php'; ?>
+        <?php include 'includes/header.php'; ?>
+        <?php include 'includes/nav.php'; ?>
         <div class="flexslider">
             <ul class="slides">
                 <li>
@@ -47,7 +48,7 @@
         </div>
 
 
-        <?php include 'includes/_footer.php'; ?>
+        <?php include 'includes/footer.php'; ?>
 
     </div><!-- end .container-->
 
