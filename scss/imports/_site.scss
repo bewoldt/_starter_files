@@ -15,29 +15,6 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 .clearfix:after { clear: both;}
 .clearfix { *zoom: 1;}
 
-/* @import Typography */
-@import "imports/typography.scss";
-
-/* @import Buttons */
-@import "imports/buttons.scss";
-
-/* @import Tables */
-@import "imports/tables.scss";
-
-/* @import Forms */
-@import "imports/forms.scss";
-
-/* @import Nav */
-@import "imports/nav.scss";
-
-/* @import Grid */
-@import "imports/grid.scss";
-
-/* @import Division Topbar */
-@import "imports/division-topbar.scss";
-
-/* @import Flexslider */
-@import "imports/flexslider.scss";
 
 /* Custom styles
 ========================================================================== */
@@ -46,7 +23,7 @@ body {
 	background: #fff;
 	color: #444;
 	font-family: open-sans, arial, verdana, sans-serif;
-	font-size: 15px;
+	font-size: em(15);
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
@@ -116,6 +93,3 @@ img.right {margin-left: 1em;margin-bottom: 1em;}
 	}
 }
 
-/* Print Import
-========================================================================== */
-@import "imports/print.scss";

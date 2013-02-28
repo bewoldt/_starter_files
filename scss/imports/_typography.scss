@@ -1,6 +1,10 @@
 /* css/scss/imports/typography.scss
 ========================================================================== */
-a {color:#0088cc; outline:none; text-decoration: none;}
+a {color:#0088cc; outline:none; text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+       -moz-transition: all 0.2s ease-in-out;
+         -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;}
 a:hover {text-decoration: underline;}
 a:active {color:#0088cc;}
 a:focus {outline:thin dotted;}
@@ -11,12 +15,12 @@ small {font-size: 85%;}
 h1,h2,h3,h4,h5,h6 {color: #222;margin: 1em 0 0.5em; line-height: 1.1; font-weight: bold;}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {text-decoration:none;}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {text-decoration:underline;}
-h1 {font-size: 44px;}
-h2 {font-size: 37px;}
-h3 {font-size: 27px;}
-h4 {font-size: 23px;}
-h5 {font-size: 18px;}
-h6 {font-size: 15px;}
+h1 {font-size: em(44);}
+h2 {font-size: em(37);}
+h3 {font-size: em(27);}
+h4 {font-size: em(23);}
+h5 {font-size: em(18);}
+h6 {font-size: em(15);}
 h1 + h2,
 h2 + h3,
 h3 + h4,
@@ -25,7 +29,7 @@ h5 + h6 {margin-top:0;}
 
 ul,ol {
     padding: 0;
-    margin: 0 0 1em 30px;
+    margin: 0 0 1em em(30);
 }
 ul ul,ul ol,ol ol,ol ul {
     margin-bottom: 0;
@@ -55,7 +59,7 @@ dd {
 code, pre {
     padding: 0 3px 2px;
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-    font-size: 12px;
+    font-size: em(12);
     color: #333;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -84,7 +88,7 @@ blockquote {
 }
 blockquote p {
     margin-bottom: 0;
-    line-height: 25px;
+    line-height: em(25);
 }
 blockquote small {
     display: block;
