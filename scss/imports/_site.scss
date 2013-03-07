@@ -22,7 +22,7 @@ img {vertical-align: middle;height: auto;max-width: 100%;}
 body {
 	background: #fff;
 	color: #444;
-	font-family: open-sans, arial, verdana, sans-serif;
+	font-family: $body-text;
 	font-size: em(15);
 	line-height: 1.5;
 	margin: 0;
@@ -33,7 +33,7 @@ body {
 ========================================================================== */
 .container {
 	margin: 0 auto;
-	width: 96%;
+	max-width: 980px;
 }
 
 
@@ -87,9 +87,6 @@ img.right {margin-left: 1em;margin-bottom: 1em;}
 /* 980px and above
 ========================================================================== */
 @media only screen and (min-width: 980px) {
-	.container {
-		margin: 0 auto;
-		width: 980px;
-	}
+
 }
 

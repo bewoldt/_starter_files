@@ -2,8 +2,8 @@
     <div class="container clearfix">
         <h1 class="univ-heading">
             <a href="http://www.uiowa.edu/">The University of Iowa</a>
-             <span><a href="http://studentlife.uiowa.edu/">Division of Student Life</a></span>
-         </h1>
+            <span><a href="http://studentlife.uiowa.edu/">Division of Student Life</a></span>
+        </h1>
         <button type="button" class="menu-link">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>

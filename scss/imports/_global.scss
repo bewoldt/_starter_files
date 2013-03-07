@@ -1,0 +1,39 @@
+/*-------------------------------------------
+    Colors
+-------------------------------------------*/
+$black: #050f0b;
+$blue: #245f6b;
+$dk-blue: #132339;
+$coral: #d29a79;
+$cream: #ede7C9;
+$white: #f8faf0;
+
+
+/*-------------------------------------------
+    Sizes
+-------------------------------------------*/
+$base: 12px;
+$base-sm: $base/2;
+$base-med: $base * 2;
+$base-lg: $base * 3;
+$base-xl: $base * 4;
+
+$base-font-size: 14px;
+$base-font-rem: 1.4rem;
+$base-line-height: $base-med;
+
+
+/*-------------------------------------------
+    Fonts
+-------------------------------------------*/
+$headline-text: Verdana, sans-serif;
+$body-text: open-sans, arial, verdana, sans-serif;
+
+
+/*-------------------------------------------
+    Px to Em conversion
+-------------------------------------------*/
+$browser-context: 16;
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em
+}

@@ -1,9 +1,14 @@
-<?php $title="Styleguide" ?>
-
-<?php include 'includes/_doc_head.php'; ?>
+<?php include 'inc/doctype.php'; ?>
+<title>Home | Acme Inc.</title>
+<?php include 'inc/meta.php'; ?>
+<script src="http://use.edgefonts.net/open-sans.js"></script>
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/print.css" media="print" />
+<!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
+</head>
 
 <body>
-    <?php include 'includes/division-topbar.php'; ?>
+    <?php include 'inc/division-topbar.php'; ?>
     <div class="container">
         <section>
             <h1>Typography</h1>
@@ -634,5 +639,8 @@ $('.flexslider').flexslider({
             </div>
         </section>
     </div>
-    <!-- Document End -->
-    <?php include 'includes/_doc_end.php'; ?>
+
+    <?php include 'inc/scripts.php'; ?>
+
+</body>
+</html>
