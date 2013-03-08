@@ -9,12 +9,22 @@ a:hover {text-decoration: underline;}
 a:active {color:#0088cc;}
 a:focus {outline:thin dotted;}
 
-p {margin:0 0 1em;}
-p + p {margin:1em 0;}
+p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+    margin: 0.6667em 0;
+}
 small {font-size: 85%;}
-h1,h2,h3,h4,h5,h6 {color: #222;margin: 1em 0 0.5em; line-height: 1.1; font-weight: bold;}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #222;
+    font-family: $headline-text;
+    margin: 1em 0 0.5em;
+    line-height: 1.1;
+    font-weight: bold;
+}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {text-decoration:none;}
-h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {text-decoration:underline;}
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {
+    text-decoration:underline;
+}
 h1 {font-size: em(44);}
 h2 {font-size: em(37);}
 h3 {font-size: em(27);}
@@ -29,7 +39,7 @@ h5 + h6 {margin-top:0;}
 
 ul,ol {
     padding: 0;
-    margin: 0 0 1em em(30);
+    margin-left: em(30);
 }
 ul ul,ul ol,ol ol,ol ul {
     margin-bottom: 0;
@@ -37,18 +47,6 @@ ul ul,ul ol,ol ol,ol ul {
 ul.unstyled, ol.unstyled {
     margin-left: 0;
     list-style: none;
-}
-ul.inline, ol.inline {
-    margin-left: 0;
-    list-style: none;
-}
-ul.inline > li, ol.inline > li {
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-dl {
-    margin-bottom: 1em;
 }
 dt {
     font-weight: bold;
@@ -82,8 +80,7 @@ hr {
 /* Quotes
 ----------------------------------------------------*/
 blockquote {
-    padding: 0 0 0 1em;
-    margin: 0 0 1em;
+    padding-left: 1em;
     border-left: 5px solid #eee;
 }
 blockquote p {

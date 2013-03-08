@@ -1,6 +1,6 @@
 <?php include 'inc/doctype.php'; ?>
-<title>Home | Acme Inc.</title>
 <?php include 'inc/meta.php'; ?>
+<title>Home | Acme Inc.</title>
 <script src="http://use.edgefonts.net/open-sans.js"></script>
 <link rel="stylesheet" href="css/master.css">
 <link rel="stylesheet" href="css/print.css" media="print" />

@@ -26,7 +26,7 @@ $base-line-height: $base-med;
 /*-------------------------------------------
     Fonts
 -------------------------------------------*/
-$headline-text: Verdana, sans-serif;
+$headline-text: Georgia, serif;
 $body-text: open-sans, arial, verdana, sans-serif;
 
 
@@ -37,3 +37,4 @@ $browser-context: 16;
 @function em($pixels, $context: $browser-context) {
 	@return #{$pixels/$context}em
 }
+/* usage: font-size: em(18) */
