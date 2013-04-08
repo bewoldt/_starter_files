@@ -1,40 +1,30 @@
-/*-------------------------------------------
-    Colors
--------------------------------------------*/
-$black: #050f0b;
-$blue: #245f6b;
-$dk-blue: #132339;
-$coral: #d29a79;
-$cream: #ede7C9;
-$white: #f8faf0;
+html,button,input,select,textarea {color: #222;}
 
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/*-------------------------------------------
-    Sizes
--------------------------------------------*/
-$base: 12px;
-$base-sm: $base/2;
-$base-med: $base * 2;
-$base-lg: $base * 3;
-$base-xl: $base * 4;
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::selection { background: #b3d4fc;text-shadow: none;}
 
-$base-font-size: 14px;
-$base-font-rem: 1.4rem;
-$base-line-height: $base-med;
+img {vertical-align: middle;height: auto;max-width: 100%;}
 
+.clearfix:before,
+.clearfix:after { content: " ";display: table;}
+.clearfix:after { clear: both;}
+.clearfix { *zoom: 1;}
 
-/*-------------------------------------------
-    Fonts
--------------------------------------------*/
-$headline-text: Georgia, serif;
-$body-text: open-sans, arial, verdana, sans-serif;
+.left {float: left;}
+.right {float: right;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+.uppercase {text-transform: uppercase;}
+img.left {margin-right: 1em;margin-bottom: 1em;}
+img.right {margin-left: 1em;margin-bottom: 1em;}
+.well {background-color: #f5f5f5;border: 1px solid #e3e3e3;min-height: 20px;padding: 19px;margin-bottom: 1em;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);}
 
-
-/*-------------------------------------------
-    Px to Em conversion
--------------------------------------------*/
-$browser-context: 16;
-@function em($pixels, $context: $browser-context) {
-	@return #{$pixels/$context}em
-}
-/* usage: font-size: em(18) */
+.ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px;}
+.ir:before { content: "";display: block;width: 0;height: 100%;}
+.hidden {display: none !important;visibility: hidden;}
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto;}
+.invisible { visibility: hidden;}

@@ -1,0 +1,345 @@
+$break-small: 600px;
+$break-medium: 768px;
+$break-large: 980px;
+
+body {margin: 0;}
+button,input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+}
+.division-topbar input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+.division-topbar input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* 2 */
+    box-sizing: border-box;
+}
+
+.division-topbar *,
+.division-topbar *:before,
+.division-topbar *:after { 
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box;
+}
+
+.division-topbar img {vertical-align: middle;height: auto;max-width: 100%;}
+
+.division-topbar a {text-decoration: none;}
+.clearfix:before,
+.clearfix:after { content: " ";display: table;}
+.clearfix:after { clear: both;}
+.clearfix { *zoom: 1;}
+
+
+/* ==================================================== */
+.wrapper {
+    margin: 0 auto;
+    max-width: $break-large;
+    position: relative;
+}
+.division-topbar {
+    background: #222; /* Old browsers */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    position: relative;
+    z-index: 1000;
+}
+.uiowa, .directory-toggle {
+    line-height: 40px;
+}
+.uiowa {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    opacity: .7;
+    &:hover {
+        opacity: 1;
+    }
+    @media screen and (min-width: $break-large) {
+        margin-left: 0;
+    }
+}
+/* Toggles
+========================================================================== */
+.directory-toggle, .search-toggle {
+    border-left: 1px solid #000;
+    -webkit-box-shadow: -1px 0 0 rgba(255,255,255,.1);
+       -moz-box-shadow: -1px 0 0 rgba(255,255,255,.1);
+            box-shadow: -1px 0 0 rgba(255,255,255,.1);
+    display: block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+/* ===== Hover ===== */
+.directory-toggle:hover, .search-toggle:hover {
+    background-color: #111;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255,255,255,.1);
+       -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255,255,255,.1);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255,255,255,.1);
+    @media screen and (min-width: $break-small) {
+        background: inherit;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.directory-toggle {
+    @media screen and (min-width: $break-small) {
+        border-left: none;
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none;
+        width: 253px;
+    }
+}
+.search-toggle {
+    background: url(../images/division-bar/magnifier-18.png) no-repeat 10px 10px;
+    padding: 10px;
+    text-indent: -999em;
+    @media screen and (min-width: $break-small) {
+        display: none;
+    }
+}
+.directory-toggle:after { /* creates the arrow */
+    content: '';
+    border-style: solid;
+    border-width: 8px 6px 0 6px;
+    border-color: #666 transparent transparent transparent;
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    left: 14px;
+    text-decoration: none;
+    width: 0px;
+    @media screen and (min-width: $break-small) {
+        left: 4px;
+    }
+}
+.directory-toggle.active:after { /* flips the arrow upside down when clicked */
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #777 transparent;
+}
+.directory-toggle img { /* hide logo for mobile versions */
+    display: none;
+    @media screen and (min-width: $break-small) {
+        display: inline-block;
+    }
+}
+
+/* Search
+========================================================================== */
+.division-search {
+    border-top: 1px solid #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+       -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    display: none;
+    position: relative;
+    @media screen and (min-width: $break-small) {
+        border: none;
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none;
+        display: block !important;
+        position: absolute;
+        right: 264px;
+        bottom: 7px;
+    }
+}
+.division-search label { /* visually hides the label */
+    border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;
+}
+.division-search form {
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    @media screen and (min-width: $break-small) {
+        padding: 0;
+    }
+}
+.division-search-input {
+    -webkit-appearance: textfield;
+    background: #333;
+    border: 1px solid #000;
+    color: #bbb;
+    display: inline-block;
+    font-size: 13px;
+    font-family: arial, verdana, sans-serif;
+    line-height: normal;
+    padding: 8px 4px 8px 5px;
+    position: relative;
+    vertical-align: middle;
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+    width: 100%;
+    -webkit-transition: width 0.2s ease, background-color 0.2s ease;
+       -moz-transition: width 0.2s ease, background-color 0.2s ease;
+            transition: width 0.2s ease, background-color 0.2s ease;
+    @media screen and (min-width: $break-small) {
+        padding: 5px 0 4px 5px;
+        width: 120px;
+    }
+}
+/* Focus */
+.division-search-input:focus {
+    outline: none;
+    color: #222;
+    text-shadow: none;
+    background-color: #fff !important;
+    @media screen and (min-width: $break-small) {
+        width: 180px;
+    }
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease; 
+    opacity: 0;
+}
+.division-search-btn {
+    background: url(../images/division-bar/magnifier-18.png) 0 0 no-repeat;
+    border: none;
+    height: 18px;
+    position: absolute;
+    top: 17px;
+    right: 19px;
+    text-indent: -999em;
+    width: 18px;
+    @media screen and (min-width: $break-small) {
+        top: 4px;
+        right: 9px;
+    }
+}
+.division-search-btn {
+    border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;
+}
+
+/* Division Directory
+========================================================================== */
+.division-directory {
+    color: #ddd;
+    display: none;
+}
+.dosl, .adr {
+    float: left;
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    @media screen and (min-width: $break-medium) {
+        float: none;
+        width: auto;
+        padding-left: 0;
+    }
+}
+.adr a {
+    color: #ddd;
+    text-decoration: underline;
+}
+.division-menu {
+    border-top: 1px solid #444;
+    @media screen and (min-width: $break-medium) {
+        border: none;
+    }
+}
+.division-menu, .division-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.division-menu ul {
+    background: #333;
+    @media screen and (min-width: $break-medium) {
+        background: inherit;
+        display: block !important;
+    }
+}
+.division-menu a {
+    border-bottom: 1px solid #444;
+    color: #e5e5e5;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    position: relative;
+    &:hover {
+        color: #fff;
+    }
+    @media screen and (min-width: $break-medium) {
+        border-bottom: none;
+        border-left: 1px solid #555;
+        font-size: 11px;
+        padding: 2px 0 2px 10px;
+        -webkit-transition: border-color .1s linear;
+        -moz-transition: border-color .1s linear;
+        transition: border-color .1s linear;
+        &:hover {
+            border-left-color: #ffce39;
+        }
+    }
+}
+
+/* Second level navigation =============== */
+.has-subnav > ul {
+    display: none; /* hide second level for mobile versions */
+}
+.has-subnav ul a {
+    font-size: 14px;
+    padding-left: 20px;
+    @media screen and (min-width: $break-medium) {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+}
+.has-subnav > a:after { /* if subnav, add a plus sign */
+    content: '+';
+    display: block;
+    font-size: 22px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.has-subnav > a.active:after {
+    content: "-";
+}
+
+
+/* 
+========================================================================== */
+@media only screen and (min-width: $break-medium) {
+    .dosl-wrapper, .division-menu {
+        float: left;
+        padding: 10px 0;
+        width: 25%;
+    }
+    .division-menu {
+        width: 75%;
+    }
+    .division-menu > li {
+        float: left;
+        padding-left: 2.75%;
+        width: 33%;
+    }
+    .has-subnav > ul {
+        display: block;
+    }
+    .division-menu > li > a {
+        border-left: none;
+        color: #ffce39;
+        letter-spacing: 1px;
+        margin: 0 0 8px;
+        padding-left: 0;
+        text-transform: uppercase;
+    }
+    .has-subnav > a:after { /* hide plus sign */
+        display: none;
+    }
+}

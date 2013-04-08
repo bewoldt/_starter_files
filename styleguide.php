@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <?php include 'inc/division-topbar.php'; ?>
+    <?php include 'inc/division-bar.php'; ?>
     <div class="container">
         <section>
             <h1>Typography</h1>
@@ -28,8 +28,8 @@
                     <p>Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
                 </div>
                 <div class="span6">
-                    <h2>Paragraph</h2>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
+                    <h2>Lede Paragraph</h2>
+                    <p class="lede">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
                     <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                     <h3>Link Styles</h3>
                     <p>Etiam porta sem malesuada <a href="#">magna mollis euismod</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.</p>
