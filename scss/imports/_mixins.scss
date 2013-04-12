@@ -1,22 +1,24 @@
 /*-------------------------------------------
     Px to Em conversion
 -------------------------------------------*/
-    @function em($pixels, $context: $base-font) {
-        @return #{$pixels/$context}em
-    }
-    /* usage: font-size: em(18) */
-
+$browser-context: 16;
+@function em($pixels, $context: $browser-context) {
+    @return #{$pixels/$context}em
+}
+/* usage: font-size: em(18) */
 
 /*-------------------------------------------
     Px to Rem conversion
 -------------------------------------------*/
-    @mixin rem($size){
-      font-size: $size + px;
-      font-size: ($size / $base-font) + rem;
+@mixin rem($size){
+  font-size: $size + px;
+  font-size: ($size / $base-font) + rem;
+}
+/* usage
+    p {
+        @include font-size(13);
     }
-    /* usage:
-        p { @include rem(13); }
-    */
+*/
 
 
 
@@ -161,8 +163,3 @@ div {
     }
 
 */
-
-
-
-
-

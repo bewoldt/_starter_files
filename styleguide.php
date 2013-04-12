@@ -1,21 +1,23 @@
 <?php include 'inc/doctype.php'; ?>
 <?php include 'inc/meta.php'; ?>
-<title>Home | Acme Inc.</title>
-<script src="http://use.edgefonts.net/open-sans.js"></script>
-<link rel="stylesheet" href="css/master.css">
-<link rel="stylesheet" href="css/print.css" media="print" />
+<title>Home | Marketing &amp; Design.</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="css/master.css">
+<!-- media querie support for ie8 and below. https://github.com/scottjehl/Respond -->
+<!--[if lt IE 9]><script src="js/vendor/respond.min.js"></script><![endif]-->
+
 </head>
 
 <body>
-    <?php include 'inc/division-bar.php'; ?>
     <div class="container">
         <section>
             <h1>Typography</h1>
             <div class="row-fluid">
                 <div class="span6">
                     <h1>H1. This is a very large header.</h1>
-                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>The first paragraph after an H1 has an increased font-size. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h2>H2. This is a large header.</h2>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                     <h3>H3. This is a medium header.</h3>
@@ -29,7 +31,7 @@
                 </div>
                 <div class="span6">
                     <h2>Lede Paragraph</h2>
-                    <p class="lede">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
+                    <p class="lede">Add a class of <code>.lede</code> to to the opening paragraph to increase the font-size. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.</p>
                     <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                     <h3>Link Styles</h3>
                     <p>Etiam porta sem malesuada <a href="#">magna mollis euismod</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.</p>
@@ -308,12 +310,12 @@
                     <textarea rows="10" style="width:100%;">
 <div class="flexslider">
     <ul class="slides">
-        <li><img src="images/slide1.jpg" alt="" /></li>
+        <li><img src="images/flexslider/slide1.jpg" alt="" /></li>
         <li>
-            <img src="images/slide2.jpg" alt="" />
+            <img src="images/flexslider/slide2.jpg" alt="" />
             <p class="flex-caption">Caption Goes Here.</p>
         </li>
-        <li><img src="images/slide3.jpg" alt="" /></li>
+        <li><img src="images/flexslider/slide3.jpg" alt="" /></li>
     </ul>
 </div>
                     </textarea>
@@ -328,14 +330,14 @@ $('.flexslider').flexslider({
                     <div class="flexslider">
                         <ul class="slides">
                             <li>
-                                <img src="images/slide1.jpg" alt="" />
+                                <img src="images/flexslider/slide1.jpg" alt="" />
                             </li>
                             <li>
-                                <img src="images/slide2.jpg" alt="" />
+                                <img src="images/flexslider/slide2.jpg" alt="" />
                                 <p class="flex-caption">Caption Goes Here.</p>
                             </li>
                             <li>
-                                <img src="images/slide3.jpg" alt="" />
+                                <img src="images/flexslider/slide3.jpg" alt="" />
                             </li>
                         </ul>
                     </div>
@@ -487,16 +489,6 @@ $('.flexslider').flexslider({
                         <td><button type="button" class="btn btn-primary">Primary</button></td>
                         <td><code>btn btn-primary</code></td>
                         <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
-                    </tr>
-                    <tr>
-                        <td><button type="button" class="btn btn-success">Success</button></td>
-                        <td><code>btn btn-success</code></td>
-                        <td>Indicates a successful or positive action</td>
-                    </tr>
-                    <tr>
-                        <td><button type="button" class="btn btn-inverse">Inverse</button></td>
-                        <td><code>btn btn-inverse</code></td>
-                        <td>Alternate dark gray button, not tied to a semantic action or use</td>
                     </tr>
                 </tbody>
             </table>

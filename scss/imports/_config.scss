@@ -10,13 +10,19 @@ $yellow: #ffce39;
 -------------------------------------------*/
 $base-font: 15;
 $base-font-size: 15px;
-$base-line-height: 1.5;
 
 
 /*-------------------------------------------
     Fonts
 -------------------------------------------*/
-$heading-text: Georgia, serif;
-$body-text: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$heading-font: Georgia, serif;
+$body-font: 'Open Sans', Arial, sans-serif;
 
 
+/*-------------------------------------------
+    Media Queries
+-------------------------------------------*/
+$break-small: 30em; /* 480px / 16px; */
+$break-medium: 48em; /* 768px / 16px; */
+$break-large: 61.25em; /* 980px / 16px; */
+$break-xlarge: 71.25em; /* 1140px / 16px; */

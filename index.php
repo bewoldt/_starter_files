@@ -1,19 +1,15 @@
 <?php include 'inc/doctype.php'; ?>
 <?php include 'inc/meta.php'; ?>
 <title>Home | Marketing &amp; Design.</title>
-
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
-
 <link rel="stylesheet" href="css/master.css">
-<link rel="stylesheet" href="css/print.css" media="print" />
-
 <!-- media querie support for ie8 and below. https://github.com/scottjehl/Respond -->
 <!--[if lt IE 9]><script src="js/vendor/respond.min.js"></script><![endif]-->
 
 </head>
 
 <body>
-    <?php include 'inc/division-bar.php'; ?>
 
     <?php include 'inc/header.php'; ?>
 
