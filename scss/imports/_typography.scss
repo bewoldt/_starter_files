@@ -18,24 +18,24 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     text-rendering: optimizelegibility;
 }
-h1, .h1 {
+h1 {
     @include rem(45);
     margin: .75em 0 .5em;
     text-transform: uppercase;
 }
-h2, .h2 {
+h2 {
     @include rem(33);
 }
-h3, .h3 {
+h3 {
     @include rem(26);
 }
-h4, .h4 {
+h4 {
     @include rem(20);
 }
-h5, .h5 {
+h5 {
     @include rem(17);
 }
-h6, .h6 {
+h6 {
     @include rem(16);
 }
 h1 + h2,
