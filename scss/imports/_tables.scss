@@ -11,8 +11,6 @@ table {
     max-width : 100%;
     & th, & td {
         padding: 8px;
-        @include rem($base-font / 1.25);
-        line-height: 1.5;
         text-align: left;
         vertical-align: top;
         border-top: 1px solid #ddd;}
@@ -33,6 +31,7 @@ table {
 /* CONDENSED ==================================================== */
 .table-condensed {
     & th, & td {
+        @include rem($base-font / 1.25);
         padding: 4px 5px;
     }
 }
