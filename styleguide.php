@@ -1,6 +1,6 @@
 <?php include 'inc/doctype.php'; ?>
 <?php include 'inc/meta.php'; ?>
-<title>Home | Marketing &amp; Design.</title>
+<title>Styleguide</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
 <link rel="stylesheet" href="css/master.css">
@@ -11,6 +11,34 @@
 
 <body>
     <div class="container">
+        <section>
+            <h1>Grid Simple</h1>
+            <div class="colgroup">
+                <div class="col-2-3">
+                    two thirds
+                </div>
+                <div class="col-1-3">
+                    one third
+                </div>
+            </div>
+            <div class="colgroup">
+                <div class="col-1-4">one fourth</div>
+                <div class="col-1-4">one fourth</div>
+                <div class="col-1-4">one fourth</div>
+                <div class="col-1-4">one fourth</div>
+            </div>
+            <div class="colgroup">
+                <div class="col-1-3">one third</div>
+                <div class="col-1-3">one third</div>
+                <div class="col-1-3">one third</div>
+            </div>
+            <div class="colgroup">
+                <div class="col-1-4">one fourth</div>
+                <div class="col-1-2">one half</div>
+                <div class="col-1-4">one fourth</div>
+            </div>
+        </section>
+        <hr>
         <section>
             <h1>Typography</h1>
             <div class="row-fluid">
