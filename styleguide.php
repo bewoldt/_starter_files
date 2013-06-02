@@ -2,10 +2,11 @@
 <?php include 'inc/meta.php'; ?>
 <title>Styleguide</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
-<!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+<![endif]-->
 <link rel="stylesheet" href="css/master.css">
-<!-- media querie support for ie8 and below. https://github.com/scottjehl/Respond -->
-<!--[if lt IE 9]><script src="js/vendor/respond.min.js"></script><![endif]-->
 
 </head>
 

@@ -2,19 +2,19 @@
 <?php include 'inc/meta.php'; ?>
 <title>Home | Marketing &amp; Design.</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
-<!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+<![endif]-->
 <link rel="stylesheet" href="css/master.css">
-<!-- media querie support for ie8 and below. https://github.com/scottjehl/Respond -->
-<!--[if lt IE 9]><script src="js/vendor/respond.min.js"></script><![endif]-->
-
 </head>
 
 <body>
     <div class="container">
         <section>
             <h1>Typography</h1>
-            <div class="row-fluid">
-                <div class="span6">
+            <div class="colgroup">
+                <div class="col-1-2">
                     <h1>H1. This is a very large header.</h1>
                     <p>The first paragraph after an H1 has an increased font-size. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -29,7 +29,7 @@
                     <h6>H6. This is very small header.</h6>            
                     <p>Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
                 </div>
-                <div class="span6">
+                <div class="col-1-2">
                     <h2>Lede Paragraph</h2>
                     <p class="lede">Add a class of <code>.lede</code> to to the opening paragraph to increase the font-size. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.</p>
                     <p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
