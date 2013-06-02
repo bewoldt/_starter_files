@@ -18,24 +18,24 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     text-rendering: optimizelegibility;
 }
-h1, .h1 {
+h1 {
     @include rem(45);
     margin: .75em 0 .5em;
     text-transform: uppercase;
 }
-h2, .h2 {
+h2 {
     @include rem(33);
 }
-h3, .h3 {
+h3 {
     @include rem(26);
 }
-h4, .h4 {
+h4 {
     @include rem(20);
 }
-h5, .h5 {
+h5 {
     @include rem(17);
 }
-h6, .h6 {
+h6 {
     @include rem(16);
 }
 h1 + h2,
@@ -53,6 +53,7 @@ ul,ol {
     margin-left: 24px;
 }
 ul ul,ul ol,ol ol,ol ul {
+    margin-top: 0;
     margin-bottom: 0;
 }
 ul.unstyled, ol.unstyled {
@@ -92,17 +93,14 @@ hr {
 /* Quotes
 ----------------------------------------------------*/
 blockquote {
+    margin: 1.6667em 0;
     padding-left: 1em;
     border-left: 5px solid #eee;
-}
-blockquote p {
-    margin-bottom: 0;
-    line-height: em(25);
 }
 blockquote small {
     display: block;
     line-height: 20px;
-    color: #999;
+    color: #666;
 }
 blockquote small:before {
     content: '\2014 \00A0';
