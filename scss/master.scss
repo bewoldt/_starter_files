@@ -6,18 +6,20 @@
 @import "imports/_typography.scss";
 @import "imports/_global.scss";
 
-/* Imports
+
+/* Elements
 -------------------------------------------*/
 @import "imports/_buttons.scss";
 @import "imports/_forms.scss";
-@import "imports/_grid.scss";
+/*@import "imports/_grid-bootstrap.scss";*/
 @import "imports/_grid-simple.scss";
-@import "imports/_print.scss";
 @import "imports/_tables.scss";
+
 
 /* Vendor
 -------------------------------------------*/ 
 @import "vendor/_flexslider.scss";
+
 
 /* Layout
 -------------------------------------------*/ 
@@ -25,7 +27,12 @@
 @import "layout/_home.scss";
 @import "layout/_nav.scss";
 
-/*-------------------------------------------
-   	Site specific styles
+
+/* Site specific styles
 -------------------------------------------*/
 @import "layout/_site.scss";
+
+
+/* Print
+-------------------------------------------*/
+@import "imports/_print.scss";
