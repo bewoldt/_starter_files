@@ -18,7 +18,15 @@
 </head>
 
 <body>
+	<?php include 'inc/header.php'; ?>
 
+	<?php include 'inc/main-nav.php'; ?>
+
+	<section role="main">
+
+	</section>
+
+	<?php include 'inc/footer.php'; ?>
 
 
 	<!-- JS -->
