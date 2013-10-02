@@ -2,13 +2,12 @@
 ========================================================================== */
 html {
 	font-size: $base-font-size;
+	line-height: 1.6;
 }
 body {
 	background: #fff;
 	color: #444;
 	font-family: $body-font;
-	font-size: $base-font-size;
-	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
@@ -20,10 +19,6 @@ body {
 	max-width: 980px;
 	padding: 0 1em;
 }
-
-
-/* Header
-========================================================================== */
 
 
 

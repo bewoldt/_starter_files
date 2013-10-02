@@ -1,15 +1,15 @@
 /*-------------------------------------------
     Colors
 -------------------------------------------*/
-$link-color: #0088cc;
+$link: #0088cc;
 $yellow: #ffce39;
 
 
 /*-------------------------------------------
     Sizes
 -------------------------------------------*/
-$base-font: 15;
-$base-font-size: 15px;
+$base-font: 16;
+$base-font-size: 16px;
 
 
 /*-------------------------------------------
@@ -22,7 +22,8 @@ $body-font: 'Open Sans', Arial, sans-serif;
 /*-------------------------------------------
     Media Queries
 -------------------------------------------*/
-$break-small: 30em; /* 480px / 16px; */
-$break-medium: 48em; /* 768px / 16px; */
-$break-large: 61.25em; /* 980px / 16px; */
-$break-xlarge: 71.25em; /* 1140px / 16px; */
+$break-small: 480px;
+$break-medium: 768px;
+$break-large: 980px;
+$break-xlarge: 1140px;
+$break-xxlarge: 1280px;

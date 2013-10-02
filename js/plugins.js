@@ -1,2 +1,2 @@
-//@codekit-append "vendor/jquery.fitvids.min.js"
-//@codekit-append "vendor/jquery.flexslider-min.js"
+//@codekit-append "plugins/jquery.fitvids.js"
+//@codekit-append "plugins/jquery.flexslider-min.js"

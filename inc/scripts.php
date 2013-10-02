@@ -1,7 +1,7 @@
 
-	<!-- Scripts -->
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="js/plugins/jquery-1.8.0.min.js"><\/script>')</script>
 	<script src="js/plugins-ck.js"></script>
 	<script src="js/main-ck.js"></script>
 
@@ -12,7 +12,7 @@
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-206087-9', 'test.com');
+		ga('create', 'UA-XXXXX-X', 'test.com');
 		ga('send', 'pageview');
 	</script>
 	 -->

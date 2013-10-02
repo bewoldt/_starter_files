@@ -1,6 +1,6 @@
 /* /scss/imports/typography.scss
 ========================================================================== */
-a {color: $link-color; outline:none; text-decoration: none;}
+a {color: $link; outline:none; text-decoration: none;}
 a:hover {text-decoration: underline;}
 a:active {color:#0088cc;}
 a:focus {outline:thin dotted;}
@@ -56,7 +56,7 @@ ul ul,ul ol,ol ol,ol ul {
     margin-top: 0;
     margin-bottom: 0;
 }
-ul.unstyled, ol.unstyled {
+.unstyled {
     list-style: none;
     margin: 0;
     padding: 0;
