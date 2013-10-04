@@ -1,1 +1,1 @@
-$(window).load(function(){$("html").removeClass("no-js")});
+$(window).load(function(){$("html").removeClass("no-js");$(".flexslider").flexslider({slideshow:!1})});
