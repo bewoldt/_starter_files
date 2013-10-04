@@ -3,9 +3,9 @@ $(window).load(function() {
 	$('html').removeClass('no-js');
 
 	// Flexslider
-	//$('.flexslider').flexslider({
-		//slideshow: false
-	//});
+	$('.flexslider').flexslider({
+		slideshow: false
+	});
 
 	// /* FitVids */
 	// $(".media").fitVids();
