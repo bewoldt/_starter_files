@@ -1,38 +1,42 @@
 
 /* Configuration
 -------------------------------------------*/
-@import "_config.scss";
+@import "_config";
 
 
-/* Reset
+/* Global Settings
 -------------------------------------------*/
-@import "global/_mixins.scss";
-@import "global/_normalize.scss";
-@import "global/_typography.scss";
-@import "global/_global.scss";
+@import "global/_mixins";
+@import "global/_normalize";
+@import "global/_typography";
+@import "global/_global";
 
 
-/* Elements
+/* Element Imports
 -------------------------------------------*/
-@import "elements/_buttons.scss";
-@import "elements/_form-bootstrap.scss";
-@import "elements/_grid-bootstrap.scss";
-/*@import "elements/_grid-simple.scss";*/
-@import "elements/_tables.scss";
+@import "elements/_button-bootstrap";
+@import "elements/_form-bootstrap";
+@import "elements/_grid-bootstrap";
+/*@import "elements/_grid-simple";*/
+@import "elements/_tables";
 
 
 /* Plugins
 -------------------------------------------*/ 
-@import "plugins/_flexslider.scss";
+@import "plugins/_flexslider";
+
+
+/* Layout
+-------------------------------------------*/ 
+@import "site/_home";
+@import "site/_nav";
 
 
 /* Site specific styles
 -------------------------------------------*/ 
-@import "site/_home.scss";
-@import "site/_nav.scss";
-@import "site/_site.scss";
+@import "site/_site";
 
 
 /* Print
 -------------------------------------------*/
-@import "site/_print.scss";
+@import "site/_print";
