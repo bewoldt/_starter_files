@@ -49,6 +49,9 @@ module.exports = function(grunt) {
     },
 
     watch: {
+      options: {
+        livereload: true,
+      },
       scripts: {
         files: ['js/*.js', 'js/**/*.js'],
         tasks: ['jshint', 'concat', 'uglify'],
@@ -62,6 +65,12 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         }
+      },
+      markup: {
+          files: ['index.php', 'inc/*.php'],
+          options: {
+              livereload: true,
+          }
       }
     },
 
