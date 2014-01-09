@@ -4,7 +4,7 @@ $(window).load(function() {
 
 	// Flexslider
 	$('.flexslider').flexslider({
-		slideshow: false
+		slideshow: true
 	});
 
 	// /* FitVids */
