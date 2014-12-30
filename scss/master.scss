@@ -1,23 +1,19 @@
 
-/* Configuration
--------------------------------------------*/
-@import "_config";
-
-
 /* Global Settings
 -------------------------------------------*/
+@import "global/_config";
 @import "global/_mixins";
 @import "global/_normalize";
 @import "global/_typography";
 @import "global/_global";
 
 
-/* Element Imports
+/* Components
 -------------------------------------------*/
-@import "elements/_button-bootstrap";
-@import "elements/_form-bootstrap";
-@import "elements/_grid-bootstrap";
-@import "elements/_tables";
+@import "components/_button-bootstrap";
+@import "components/_form-bootstrap";
+@import "components/_grid-bootstrap";
+@import "components/_tables-bootstrap";
 
 
 /* Plugins
