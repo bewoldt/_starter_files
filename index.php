@@ -11,10 +11,17 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 <!-- CSS -->
 <link rel="stylesheet" href="css/master.css">
-<!-- JS -->
+<!--[if IE 8]>
+  	<script>var IE8 = true;</script>
+  	<script src="js/site.ie8.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+	<script>var IE9 = true;</script>
+	<script src="js/site.ie9.js"></script>
+<![endif]-->
 <!--[if lt IE 9]>
-    <script src="js/plugins/html5shiv.js"></script>
-    <script src="js/plugins/respond.min.js"></script>
+	 <script src="js/html5shiv.js"></script>
+	 <script src="js/respond.min.js"></script>
 <![endif]-->
 </head>
 
