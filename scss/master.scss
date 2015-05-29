@@ -1,37 +1,37 @@
 
 /* Global Settings
 -------------------------------------------*/
-@import "global/_config";
-@import "global/_mixins";
-@import "global/_normalize";
-@import "global/_typography";
-@import "global/_global";
+@import "global/config";
+@import "global/mixins";
+@import "global/normalize";
+@import "global/typography";
+@import "global/global";
 
 
 /* Components
 -------------------------------------------*/
-@import "components/_button-bootstrap";
-@import "components/_form-bootstrap";
-@import "components/_grid-bootstrap";
-@import "components/_tables-bootstrap";
+@import "components/button-bootstrap";
+@import "components/form-bootstrap";
+@import "components/grid-bootstrap";
+@import "components/tables-bootstrap";
 
 
 /* Plugins
 -------------------------------------------*/
-@import "plugins/_flexslider";
+@import "plugins/flexslider";
 
 
 /* Layout
 -------------------------------------------*/
-@import "site/_home";
-@import "site/_nav";
+@import "site/home";
+@import "site/nav";
 
 
 /* Site specific styles
 -------------------------------------------*/
-@import "site/_site";
+@import "site/site";
 
 
 /* Print
 -------------------------------------------*/
-@import "site/_print";
+@import "site/print";
